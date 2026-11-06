@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Off</string>
+    <string name="service_label">Screen Off</string>
+    <string name="service_description">Turns the screen off when you double-tap empty space on the home screen or the status bar. It does not read, store or send what is on your screen, and the app has no internet access.</string>
+    <string name="tile_label">Screen off</string>
+    <string name="tile_setup">Set up first</string>
+
+    <!-- Service status card -->
+    <string name="service_title">Screen Off service</string>
+    <string name="status_on">Running</string>
+    <string name="status_off">Not enabled. Tap to open Accessibility settings</string>
+
+    <!-- Sections -->
+    <string name="section_triggers">Triggers</string>
+    <string name="section_timing">Double tap</string>
+    <string name="section_vibration">Vibration</string>
+
+    <!-- Triggers -->
+    <string name="home_title">Home screen</string>
+    <string name="home_summary">Double-tap empty space on the home screen to turn the screen off</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_summary">Double-tap the status bar to turn the screen off</string>
+    <string name="only_home_title">Status bar only on home screen</string>
+    <string name="only_home_summary">Ignore status bar double taps while another app is open</string>
+
+    <!-- Timing -->
+    <string name="tap_time_title">Double tap time</string>
+    <string name="tap_time_summary">Maximum time between the two taps</string>
+    <string name="unit_ms">%d ms</string>
+
+    <!-- Vibration -->
+    <string name="vibrate_title">Vibrate</string>
+    <string name="vibrate_summary">Add a short vibration effect when the screen turns off</string>
+    <string name="vibrate_unsupported">This phone has no vibration motor</string>
+    <string name="vibrate_strength_title">Vibration strength</string>
+    <string name="vibrate_length_title">Vibration length</string>
+    <string name="vibrate_pattern_title">Vibration pattern</string>
+    <string name="pattern_single">Single buzz</string>
+    <string name="pattern_double">Double buzz</string>
+    <string name="vibrate_test_title">Test vibration</string>
+    <string name="vibrate_test_summary">Feel the current settings</string>
+    <string name="unit_percent">%d%%</string>
+
+    <string name="about_text">Screen Off %1$s · open source (MIT licence)</string>
+    <string name="tile_hint">Quick Settings tile: swipe down twice, tap the edit (pencil) icon, and drag “Screen off” into your panel.</string>
+</resources>

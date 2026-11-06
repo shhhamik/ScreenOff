@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Minimal accessibility configuration:
+    - starts out listening only for "window changed" events (to know when the home screen is
+      showing); while the home screen is up, LockService also asks for click, long-click and
+      scroll events (it only needs to know THAT something was tapped, never what)
+    - canRetrieveWindowContent=false: the service cannot inspect what is on your screen (no
+      access to the view hierarchy). The code looks only at an event's type and package name.
+    - no touch exploration, no key events, no gesture dispatch
+    The settings entry on the Accessibility settings page opens SettingsActivity.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/service_description"
+    android:notificationTimeout="0"
+    android:settingsActivity="dev.shamik.screenoff.SettingsActivity" />
