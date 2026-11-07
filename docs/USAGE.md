@@ -43,7 +43,7 @@ so the buzz is not cut short by the screen going dark.
 | Problem | What to try |
 |---|---|
 | The Accessibility switch is greyed out or says "Restricted setting" | *Settings > Apps > Screen Off > three-dot menu > **Allow restricted settings***, then try again. |
-| Play Protect blocks the install | **More details > Install anyway.** See [why](PRIVACY_AND_SAFETY.md#why-does-android-show-scary-warnings). |
+| Play Protect blocks the install | See [Pause Play Protect to install](INSTALL.md#pause-play-protect-to-install). |
 | Double-tapping the home screen does nothing | Open any app and return home once. Check that **Home screen** is on. Make sure you are tapping empty space. Raise **Double tap time** a little. |
 | It locks when I double-tap an icon | Please [report it](https://github.com/shhhamik/ScreenOff/issues) with your phone model, Android version and launcher. A debug-build log helps (below). |
 | I cannot tap status bar icons | Expected while the status bar strip is active. Turn off **Status bar** (or keep **only on home screen** on). |

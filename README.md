@@ -34,7 +34,7 @@ Works on Android 11 and newer; developed on a Pixel 11 Pro running Android 17.
 ## Quick start
 
 1. **Download** the latest `ScreenOff-x.y.z.apk` from [Releases](../../releases) and open it on your
-   phone. If Play Protect says *App blocked*, tap **More details > Install anyway**.
+   phone. **Play Protect will block it and offers no "Install anyway", so [pause Play Protect first](docs/INSTALL.md#pause-play-protect-to-install)** and turn it back on afterwards.
 2. Go to **Settings > Accessibility > Screen Off** and switch it on. If the switch is greyed out, open
    **Settings > Apps > Screen Off**, tap the **⋮ menu > Allow restricted settings**, then try again.
 3. Open any app and return to the home screen once.
@@ -53,6 +53,9 @@ Full steps: [Install and set up](docs/INSTALL.md) · [Using it and settings](doc
   only asks for the `VIBRATE` permission.
 - The home screen double tap is a heuristic, so a launcher that reports no taps could lock by mistake.
 - Taps on status bar icons are swallowed while the status bar trigger is active.
+- **Pause Play Protect to install**, then turn it back on. It blocks every new accessibility app from outside
+  Google Play and gives no override button. This says nothing about this app in particular.
+  [Why, and the steps](docs/INSTALL.md#pause-play-protect-to-install).
 - Some banking apps dislike accessibility services. If one complains, switch Screen Off off while you use it.
 
 ## Documentation
